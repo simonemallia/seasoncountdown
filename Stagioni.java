@@ -19,7 +19,7 @@ public class Stagioni {
 	
 	public  void inverno() {
 		inverno.set(Calendar.MONTH, Calendar.DECEMBER);
-		inverno.set(Calendar.DAY_OF_MONTH, 21);
+		inverno.set(Calendar.DAY_OF_MONTH, 22);
 		long untilwinter = inverno.getTimeInMillis() - now;
 		Date winterdate = new Date (untilwinter);
 		
@@ -39,7 +39,7 @@ public class Stagioni {
 	
 	public void estate() {
 		estate.set(Calendar.MONTH, Calendar.JUNE);
-		estate.set(Calendar.DAY_OF_MONTH, 21);
+		estate.set(Calendar.DAY_OF_MONTH, 22);
 		long untilsummer = estate.getTimeInMillis() - now;
 		Date summerdate = new Date(untilsummer);
 		
@@ -48,8 +48,8 @@ public class Stagioni {
 	}
 	
 	public void autunno() {
-		autunno.set(Calendar.MONTH, Calendar.OCTOBER);
-		autunno.set(Calendar.DAY_OF_MONTH, 21);
+		autunno.set(Calendar.MONTH, Calendar.SEPTEMBER);
+		autunno.set(Calendar.DAY_OF_MONTH, 23);
 		long untilautumn = autunno.getTimeInMillis() - now;
 		Date autumndate = new Date (untilautumn);
 		
